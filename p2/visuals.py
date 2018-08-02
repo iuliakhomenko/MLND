@@ -60,10 +60,10 @@ def evaluate(results, accuracy, f1):
     """
   
     # Create figure
-    fig, ax = pl.subplots(2, 3, figsize = (11,7))
+    fig, ax = pl.subplots(6, 1, figsize = (20,20))
 
     # Constants
-    bar_width = 0.3
+    bar_width = 0.7
     colors = ['#A00000','#00A0A0','#00A000']
     
     # Super loop to plot four panels of data
